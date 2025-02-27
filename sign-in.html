@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+.signup_form label {
+   float: left;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+
+
+}
+.signup_form{
+   border: 1px solid;
+   width:40%;
+   margin: 0 auto;
+   padding: 10px;
+}
+.signup_form input{
+   padding: 16px 15px;
+   width: 94%;
+   border-radius: 5px;
+   border: solid 1px;
+   margin: 10px 0;
+}
+.signup_form button{
+   padding: 5px 8px;
+   margin: 5px 0;
+   width: 100% ;
+   background: none;
+   border: none;
+   background-color:black;
+   color: white;
+   border-radius: 5px
+}
+i{
+    margin-left: 40%;
+}
+#google{
+        border: none;
+        width: 30px;
+        height: 30px;
+        box-shadow: rgb(221, 219, 219) 2px 2px 2px 2px, -1px -1px 1px 1px rgb(221, 221, 221);
+        font-size: 30px;
+        padding: 10px
+        
+              
+        }
+        #facebook{
+        font-size: 30px;
+         margin-left: 50px;
+        }
+
+
+
+#checkbox{
+width: 15px;
+text-align: left;
+
+}
+h3{
+   display: flex;
+   flex-direction: row;
+}
+h3:before,
+h3:after
+{
+   content: "";
+   flex: 1 1;
+   border-bottom: 2px solid black;
+   margin: auto;
+
+}  
+    </style>
+
+</head>
+
+<body>
+    <form class="signup_form" action="tables.html">
+    <p>Don't have an account?<a href="index.html">Sign Up</a></p>
+    <h1 id="heading">Sign In</h1>
+    <label for="email">Email</label>
+    <br> <br>
+    <input id="email" placeholder="Enter email address" type="email"/>
+    <br> <br>
+    <label for="password">Password</label>
+    <br> <br>
+    <input id="password" placeholder="Enter password" type="password"/>
+    <br> <br>
+    <input id="checkbox" type="checkbox" name="checkbox"/>I've Read And Agree With <b> The Terms Of Service </b> And Our <b> Privacy Policy</b>
+    <br> <br>
+    <button type="sign In">Sign In</button>
+    <h3>Or Sign In With</h3>
+    <a href="https://accounts.google.com/lifecycle/steps/signup/name?continue
+        =https://mail.google.com/mail/&ddm=1&dsh=S-1422518413:1740592759466690&ec=
+        asw-gmail-hero-create&flowEntry=SignUp&flowName=GlifWebSignIn&service=mail&theme=
+        glif&TL=ADgdZ7RDocv8Ilg0MaB7RYltqRlfr10suuJC8-MrGFR7UoLIJUuLXrcSriIDRS9K">
+             <i id="google" class="fa-brands fa-google"></i></a>
+         <a href="https://www.facebook.com/r.php?entry_point=login">
+             <i id="facebook" class="fa-brands fa-facebook"></i></a>
+
+ </form>
+    
+</body>
+</html>
